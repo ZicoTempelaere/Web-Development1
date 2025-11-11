@@ -1,0 +1,29 @@
+/* Verwijder standaard bullets */
+.checklist {
+    list-style: none;
+    padding-left: 0;
+}
+
+/* Stijl voor elk list item: ruimte links voor het icoon */
+.checklist li {
+    position: relative;
+    padding: 30px;
+    margin-bottom: 8px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.checklist li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 24px;
+    height: 24px;
+    background: url("images/unchecked.png") no-repeat center center;
+    background-size: contain;
+}
+
+.checklist li.checked::before {
+    background: url("images/checked.jpg") no-repeat center center;
+    background-size: contain;
+}
