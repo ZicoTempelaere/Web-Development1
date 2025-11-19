@@ -1,0 +1,9 @@
+section p {
+    border: 1px solid black;
+    display:inline-block;
+    width: calc(50% - 10px);
+    box-sizing: border-box;
+    float: left;
+    padding: 10px;
+    margin-right: 10px;
+}
