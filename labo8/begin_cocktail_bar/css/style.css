@@ -1,0 +1,97 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+#wrapper {
+    width: 95vw;
+    height: 95vh;
+    margin: 0 auto;
+    font-family: Verdana, Helvetica, Arial;
+    font-size: var(--base-font-size);
+}
+
+h1 {
+    color: #007e7e;
+    font-size: 150%;
+}
+
+h2 {
+    font-size: 130%;
+    color: #007e7e;
+}
+
+#elixirs h1 {
+    color: black;
+}
+
+#elixirs h2 {
+    color: red;
+}
+
+:root {
+    --base-font-size: 1.2em;
+}
+
+footer {
+    font-size: calc(var(--base-font-size) / 2);
+}
+
+#elixirs a:hover{
+    background-color: brown;
+}
+
+#elixirs {
+    text-align: center;
+    border: solid rgb(167	206	206) 2px;
+    width: 30%;
+    float: right;
+    padding: 20px;
+    box-sizing: border-box;
+
+    background-image: url('../images/cocktail.gif');
+    background-repeat: repeat-x;        /* herhaal horizontaal /
+    background-position: top center;    / plaats bovenaan /
+    background-size: auto 40px;         / zodat de gif past in de borderhoogte */
+}
+
+#content {
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+    width: 70%;
+}
+
+.color {
+    color: #444444;
+
+}
+
+#guarantee {
+    background: url("../images/background.gif");
+    background-repeat: no-repeat;
+    background-position: 0 2px; /* icoon links van de tekst, iets gecentreerd */
+    background-size: 30px 30px;
+    margin: 30px;
+    padding: 20px;
+    background-color: rgb(167	206	206);
+    border: dotted 2px white;
+}
+
+header {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    clear: both;
+    padding-bottom: 100px;
+}
+
+.cd {
+    font-style: italic;
+}
+
+.artist {
+    font-weight: bold;
+}
