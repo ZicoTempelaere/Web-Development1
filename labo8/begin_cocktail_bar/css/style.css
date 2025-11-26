@@ -70,10 +70,12 @@ footer {
 #guarantee {
     background: url("../images/background.gif");
     background-repeat: no-repeat;
-    background-position: 0 2px; /* icoon links van de tekst, iets gecentreerd */
-    background-size: 30px 30px;
+    background-position: 15px 15px; /* icoon links van de tekst, iets gecentreerd */
+    background-size: 50px 50px;
     margin: 30px;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 70px;
     background-color: rgb(167	206	206);
     border: dotted 2px white;
 }
