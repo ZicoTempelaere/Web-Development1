@@ -1,0 +1,133 @@
+header {
+    background-image: url("../images/bgsky3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 200px;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+    color: #00008b;
+    font-size: 300%;
+    font-style: italic;
+}
+
+header h2 {
+    text-align: center;
+    font-weight: bold;
+    color: #00008b;
+    font-size: 240%;
+}
+
+header img {
+    position: absolute;
+    top: 35px;
+    bottom: 60px;
+    right: 250px;
+    left: 800px;
+    z-index: 1;
+}
+
+aside {
+    float: right;
+    width: 25%;
+    background-color: #dddddd;
+    border: 1px solid #999999;
+}
+
+aside h3 {
+    color: white;
+    background-color: #0000ff;
+    text-align: center;
+    font-size: 120%;
+}
+
+aside p {
+    color: #666666;
+    font-size: 90%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+main {
+    width: 75%;
+}
+
+.introduction {
+    background-color: white;
+    color: black;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 30px;
+    text-align: justify;
+}
+
+.BlauweTekst {
+    color: #0000ff;
+    font-style: italic;
+    font-weight: bold;
+}
+
+figure{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.flex {
+    display: flex;
+    align-items: flex-start;
+}
+
+.gallery img{
+    width: 180px;
+    height: 180px;
+    padding: 10px;
+    background-color: white;
+    border: 1px dotted #999999;
+    margin: 20px;
+}
+
+.gallery {
+    display: grid;
+    background-color: #999999;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+nav {
+    background-color: #666666;
+    color: white;
+    line-height: 2em;
+    padding-top: 1px;
+}
+
+nav div {
+    padding-left: 120px;
+}
+
+nav a:hover {
+    color: red;
+}
+
+nav div {
+    display: inline-block;
+}
+
+nav a {
+    color: white;
+}
+
+footer {
+    text-align: center;
+    background-color: white;
+    color: black;
+}
