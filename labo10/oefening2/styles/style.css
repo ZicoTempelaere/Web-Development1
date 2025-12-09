@@ -1,0 +1,9 @@
+.row div {
+    background-color: lightgray;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.row div:nth-child(even) {
+    background-color: darkgrey;
+}
