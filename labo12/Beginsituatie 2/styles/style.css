@@ -1,0 +1,75 @@
+/* Reset & base */
+* {
+    box-sizing: border-box;
+    padding: 10px; /* all elements */
+    font-family: helvetica, Arial, sans-serif;
+}
+
+body {
+    margin: 5px;
+    font-size: 1em;
+    background-color: #333; /* canvas */
+}
+
+/* Exceptions */
+nav {
+    padding: 5px 2px; /* excepted */
+}
+
+img {
+    padding: 0; /* excepted */
+    max-width: 100%;
+    display: block;
+}
+
+h1 {
+    margin: 0;
+}
+
+section {
+    margin: 5px;
+}
+
+/* Header & Footer */
+header,
+footer {
+    background: #ddaa00;
+}
+
+footer a {
+    color: #ddaa00; /* hyperlink color */
+}
+
+/* Navigation */
+nav {
+    background-color: #ccc;
+}
+
+nav a {
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Main */
+main {
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Links inside sections (content blocks) */
+main a {
+    border: 1px solid #333;
+    text-decoration: none;
+}
+
+@media (min-width: 700px) {
+    main {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+}
