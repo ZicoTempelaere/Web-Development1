@@ -59,7 +59,7 @@ const saveColor = () => {
     deleteBtn.classList.add("deleteBtn");
 
     deleteBtn.addEventListener("click", (event) => {
-        event.stopPropagation(); 
+        event.stopPropagation();
         container.remove();
     });
 
